@@ -1,0 +1,20 @@
+{
+	"name": "boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"author": "DevSaiful",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^26.7.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^12.4.0",
+		"@wordpress/blocks": "^12.13.0"
+	}
+}
